@@ -28,7 +28,7 @@ function number_format(number, decimals, dec_point, thousands_sep) {
 }
 
 // Area Chart Example
-var ctx = document.getElementById("myAreaChart");
+var ctx = document.getElementById("myAreaChart"); // angular 尚未啟動完成，畫面上沒有東西，null取不到長度error
 var myLineChart = new Chart(ctx, {
   type: 'line',
   data: {
